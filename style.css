@@ -4,6 +4,12 @@
   padding: 0;
   border: 1px solid black;
 }
+body {
+  color: seashell;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
 nav {
   height: 70px;
   background-color: rgb(155, 155, 155);
@@ -46,6 +52,7 @@ section {
 }
 .short {
   height: 20vh;
+  background-color: rgb(170, 170, 170);
 }
 .medium-height {
   height: 50vh;
@@ -73,8 +80,18 @@ section {
   background-color: rgb(66, 66, 66);
 }
 .blog-articles {
+  margin: 0 auto;
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 25px;
   grid-template-rows: repeat(3, 35vh);
+  /* margin: 0 auto; */
+  width: 1200px;
+}
+.blog-articles article {
+  background-color: rgb(44, 44, 44);
+}
+.bottom-nav {
+  background-color: rgb(33, 33, 33);
 }
