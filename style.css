@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+nav {
+  height: 70px;
+  background-color: rgb(155, 155, 155);
+}
+.container1 {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 80% 20%;
+}
+.container1 section {
+  margin: 0;
+}
+.main {
+  background-color: rgb(33, 33, 33);
+}
+aside {
+  background-color: rgb(99, 99, 99);
+}
+.book-promo {
+  background-color: rgb(44, 44, 44);
+}
+.container2 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+section {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.see-more {
+  grid-column-end: span 2;
+  background-color: rgb(170, 170, 170);
+}
+.tall {
+  height: 100vh;
+}
+.short {
+  height: 20vh;
+}
+.medium-height {
+  height: 50vh;
+}
+.bottom-nav {
+  height: 90vh;
+}
+/* .see-more {
+  height: 200px;
+} */
+.guides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50vh 110vh 1fr;
+  grid-gap: 25px;
+}
+.guides article {
+  background-color: rgb(44, 44, 44);
+}
+.guides .short {
+  grid-column-end: span 2;
+  background-color: rgb(170, 170, 170);
+}
+.potw {
+  background-color: rgb(66, 66, 66);
+}
+.blog-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+  grid-template-rows: repeat(3, 35vh);
+}
